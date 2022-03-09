@@ -49,7 +49,7 @@ void payment_caculate(int t, int *p) //화폐의 개수 계산 함수
 
 int main() {
 	int payment[5];
-
+	
 	FILE *fp;
 	fp = fopen("data.txt", "r");
 	int money, tax, total;
@@ -74,6 +74,6 @@ int main() {
 	}
 
 	fclose(fp);
-
+		
 	return 0;
 }
