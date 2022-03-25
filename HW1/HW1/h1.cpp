@@ -86,7 +86,7 @@ int main()
 			else if (arr[k] == min) { check[k] = 2; }	//											 :: 기본 = 0, 최대값 = 1, 최소값 = 2 
 			printf("%8d", arr[k]);						//	3.  arr[k] 출력 후 k값 1 증가
 			k++;
-			if (k == cnt) { printf("\n"); break; }		//	4.  반복문이 정밀하지 않기때문에 정수를 다 읽었으면 루프 탈출
+		//	if (k == cnt) { printf("\n"); break; }		//	4.  반복문이 정밀하지 않기때문에 정수를 다 읽었으면 루프 탈출
 		}
 		for (int i = 0; i < out_num; i++) {					//	5. 이전 반복문과 같은 조건의 반복문을 선언
 			if (check[g] == 0) { printf("%8s", c_space); }//	6. 위에서 판별한 check[g]를 확인하여 기본일 경우 공백 출력,
